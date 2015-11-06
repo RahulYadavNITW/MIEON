@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.thenewboston.mieon.MobileVerification">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolBar"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolBar">
+        <TextView
+            android:layout_marginTop="31dp"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/titleMessage"
+            android:textColor="#333333"
+            android:layout_centerHorizontal="true"
+            fontFamily="fonts/OpenSans-Regular.ttf"
+            tools:ignore="MissingPrefix"
+            android:text="          Your mobile number \n has been verified successfully"/>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/circle"
+            android:background="@drawable/circle"
+            android:layout_below="@+id/titleMessage"
+            android:layout_marginTop="48dp"
+            android:layout_centerHorizontal="true"
+            >
+            <ImageView
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/phoneImage"
+                android:background="@drawable/icon_verified"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/circle"
+            android:layout_marginTop="49dp"
+            android:id="@+id/relativeLayout">
+            <EditText
+                android:textColor="#999999"
+                android:textSize="25sp"
+                android:inputType="number"
+                android:layout_marginRight="18dp"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/numberPicker1"
+                android:cursorVisible="false"
+                android:background="@drawable/small_sqaure"
+                android:textStyle="bold"
+                android:text="9"
+                android:gravity="center"
+                fontFamily="fonts/OpenSans-CondBold.ttf"
+                tools:ignore="MissingPrefix"
+                android:maxLength="1"
+                />
+            <EditText
+                android:inputType="number"
+                android:layout_marginRight="18dp"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/numberPicker2"
+                android:layout_toRightOf="@+id/numberPicker1"
+                android:background="@drawable/small_sqaure"
+                android:cursorVisible="false"
+                android:textColor="#999999"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:text="2"
+                android:gravity="center"
+                fontFamily="fonts/OpenSans-CondBold.ttf"
+                tools:ignore="MissingPrefix"
+                android:maxLength="1"/>
+            <EditText
+                android:inputType="number"
+                android:layout_marginRight="18dp"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/numberPicker3"
+                android:cursorVisible="false"
+                android:layout_toRightOf="@+id/numberPicker2"
+                android:background="@drawable/small_sqaure"
+                android:textColor="#999999"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:text="4"
+                android:gravity="center"
+                fontFamily="fonts/OpenSans-CondBold.ttf"
+                tools:ignore="MissingPrefix"
+                android:maxLength="1"/>
+            <EditText
+                android:inputType="number"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/numberPicker4"
+                android:cursorVisible="false"
+                android:layout_toRightOf="@+id/numberPicker3"
+                android:background="@drawable/small_sqaure"
+                android:textColor="#999999"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:text="6"
+                android:gravity="center"
+                fontFamily="fonts/OpenSans-CondBold.ttf"
+                tools:ignore="MissingPrefix"
+                android:maxLength="1"/>
+
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="17449c47df35c754b257532052f1270c444f7993">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/classes-8afc76c0dcb5f07db8cfe68c80b4a5da55b62ade.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/com.appyvet/materialrangebar/1.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fedb82ed5a9801eae33901cf740baa2bc6698fcd">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/classes-e181cf51cc6bb3c14547be6635b3e0bf860e9e66.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="39ae02ce40c3ac828abbf780ce0ff5d7a28b7d6a">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/classes-fd5460657aefa9ae1ab0df3e4d3300763285cc3b.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="17449c47df35c754b257532052f1270c444f7993">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/classes-501dd55b8fb840fd0bfea3ef7b7c6a32e010170b.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-beb4f78997146bb6210e877ccff7f6a697f379e7.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/classes-4d3571a094f2a73ae9fb8116a8996a26ac87f57a.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d93480da1d303122ee67dc3bc23e6297bdef9951">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/classes-67947dbbdd1af4a8afe0325c887e31d04a7e77bc.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.1/44780c2cf98f6a3cf4e77f1234d644758b329201/bolts-android-1.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="44780c2cf98f6a3cf4e77f1234d644758b329201">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/bolts-android-1.2.1-e835d69b657454da2075d4b1808400e4b75ed498.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/com.appyvet/materialrangebar/1.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fedb82ed5a9801eae33901cf740baa2bc6698fcd">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/classes-ba4f91cf3bede1284befdc56dafa710427e01549.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3178362320bcf51228835b60ff978efadfd1f783">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/classes-e36f8449f88980b178e19dc73141cf559afb014c.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/classes-f568d34daeb132db92d1ec00b4674d41437d657f.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="993834cb17d07d51b92db89d2c330243592ebf77">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/classes-7dbf54d32dc11247cbb70b1348dab4be7d19fba7.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-24745f8dac5e2aab24ef4756b01e54c707748f99.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/classes-06fb660203210e003e5f08e7ef458d467a671395.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/classes-f0fd630285e1a2b87d4a96cb4590ca0c4f96bd98.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="482de223655d06253cc6a4955d653f8994169500">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/classes-800a261954e44c72f790abea630f8573d5a7c482.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="97f3b099801a9ad9d70e835b9125273e986eb68d">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/classes-1fb2d6d52de07fe634a0f25d7c735ebdfa79faa8.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/com.wdullaer/materialdatetimepicker/1.5.3/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fff37239b1a6a2e5bd9b6bf9af0dd5d3ee52936c">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/classes-fb917dd6b5bbde327cbd9fbb221a76c6d2967eb1.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/com.github.traex.rippleeffect/library/1.3/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ee17feb34ce104bc17d1a1e64346d7f779ebb066">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/classes-0bb18b8ceb2e13334e425c97bdb88729f79809ce.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/classes-9da0e55c074f29d80f3f4152f942f5003ad6805e.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="95758a2905669affbffc5ddd262921d375674fad">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/classes-16afcb7b5c5116c9322567087e996f9589655b95.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="482de223655d06253cc6a4955d653f8994169500">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/classes-fff9b7ce56a9d202bd4479b29ca7ac7ff71d258d.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3aed37c38c56679602255dd72ef356da5d327cda">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/classes-ae2853d44418f154a0e0aec45b6b739be1f29568.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3b05c18f60969ecc2ba49c0409c4b96be2d9cb0c">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/classes-fc8e37d0b4992da1a866d0c6e5308f2ca5c0b842.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/classes-b6c80add0dd2cebbc36ea053472c2ab45c1b3fba.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9cf8c0ef60847621c7ad00b4f78dbfc9daba4af2">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/classes-735b1e8d7e6103c71ab946c55b8fb675f9735b1a.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/classes-da9fd0fea71841f5e673bb175188bfcca5e1b7a3.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d61920aba361832a9545a43fa8c9453eb02f18f7">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/classes-f4b104c7163eed294d01bcafc9d7f0a43dc4c1cb.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dcb5b75baf05d92e61d5706737200ee55949f97b">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/classes-f0df1e4ce0bded9843f3acdf43de0b11b43a35be.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d93480da1d303122ee67dc3bc23e6297bdef9951">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/classes-a53fe06fdcc33077a4498b2a45a1eea6b1810750.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3aed37c38c56679602255dd72ef356da5d327cda">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/classes-994f42176281f87e2005b6e798979afa2886f899.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/classes-b1078b8f09db5526b0a4375895769ab176cf2343.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/classes-8e1e8b4afe76c580bb7ed32a1a005b361dde79d9.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d294caf562c4c678b2ef351662a0ca6f1a4d06c0">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/classes-3275db14ecbdd9b826c22ed9a438182d2624d0e8.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/com.balysv/material-ripple/1.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c733e9d1b065d940a08f2fca0ff920dfc08d94cc">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/classes-1276c0f5dec4d35b290ff5ae5149be0dd938af65.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="997773777cf3904c11d6764fe3b7668538220e49">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/classes-5750f440447fe4b9d1fea6bc4b110e2bb4a6b691.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d294caf562c4c678b2ef351662a0ca6f1a4d06c0">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/classes-56cd38bdf34b467003f01341cd1181374cabfa60.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-cf3d0c736e74f1678b4f1e9feac2cd7982fd42e9.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/classes-64a5fbe6630a3a026bcf77687529b305fcd7958a.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3b05c18f60969ecc2ba49c0409c4b96be2d9cb0c">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/classes-443b064ec8911f453db112f66e68fe9ab5e1bbc2.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d61920aba361832a9545a43fa8c9453eb02f18f7">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/classes-9ee639cb0cb46cacc786dd11158eea4a00f1ef42.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.0-5faadd928e752d72490fdb6e26148896935ba7e7.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/com.wdullaer/materialdatetimepicker/1.5.3/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fff37239b1a6a2e5bd9b6bf9af0dd5d3ee52936c">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/classes-e408aaf998af841007597935632b8c02435cbdc7.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/com.klinkerapps/android-chips/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4f0820209fcf4b204b40a29c9074c55b33921ab9">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/classes-f6e998020cb159ee5374a733cc1fa02bc0586e74.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/com.balysv/material-ripple/1.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c733e9d1b065d940a08f2fca0ff920dfc08d94cc">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/classes-158e387797b378c36f96ba322dbaae4c867aa9b1.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/uk.co.chrisjenx/calligraphy/2.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e653e15e62e8a59ddd76cc7f827bf8bce38ae7bb">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/classes-f3cf487b2c61cf83ee1f329c43a6fe0746d2cd78.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="39ae02ce40c3ac828abbf780ce0ff5d7a28b7d6a">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/classes-b0094075471a2ac398252610ce750c19f1837272.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="95758a2905669affbffc5ddd262921d375674fad">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/classes-cef4697bd84122a9df64240600c34fa35ba9214b.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="97f3b099801a9ad9d70e835b9125273e986eb68d">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/classes-f5836953336a011d4f7bc060b73f9ac4329c859d.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-7ebb25254b73beded15364c7fb6a9884bf4a8432.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2a7e47da654546f9457deb6132364f1bf33a1857">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/classes-48d278a75367ced188274061b4aa9dc844f37be2.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="997773777cf3904c11d6764fe3b7668538220e49">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/classes-ddc2da006ea9da8e35878289e8232cae6feef769.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/classes-de6481edf82de2fe4af7dacace06aba6192a6080.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b92002cb2f0e11a226ac5bac6dff1dc2a9d0b774">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/classes-daa4c0e9b748a30e93a2c3c5becd8cd7db75b5ec.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9cf8c0ef60847621c7ad00b4f78dbfc9daba4af2">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/classes-f1bde8c586f0eab4314868bd6d416783618247cf.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dcb5b75baf05d92e61d5706737200ee55949f97b">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/classes-5b5077588d17ff2c41a5d7fafaaacd18f3ad32be.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/classes-a44c9c98c8a610bd1de08f51c5a612d8ef95854f.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3c729e6d76a36c5dc27e6a4c4009296f49eaa88a">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/classes-6d0aa287dd8aab54988ace4c9567dc40a4571f17.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/classes-c30797fcd2c2bb135a8cfbc1d7daa6081f961911.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="041d93cf0533591c29d1d7263b2fa114dbfb20bd">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/classes-b649558084f7bdf46817db845c266f2391ef66d5.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/classes-dc93fd96abdcb144887108dcf9e7f81e71ee6de7.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/com.klinkerapps/android-chips/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4f0820209fcf4b204b40a29c9074c55b33921ab9">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/classes-abde10288910c49dd6bed10b4d3359a468604575.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/.gradle/caches/modules-2/files-2.1/com.parse/parse-android/1.10.3/36366e460af2c0f224bb8f70b64e3302f638b138/parse-android-1.10.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="36366e460af2c0f224bb8f70b64e3302f638b138">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/parse-android-1.10.3-40ace83132e6c55c39e24b7238e72a3ec0dcf01a.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3178362320bcf51228835b60ff978efadfd1f783">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/classes-1f72acbdc688d73e170be6b71edad5439ad8c706.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="325788a04b436a0bccbc5b4c54cf0f12ebdcbd2d">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/classes-f540b8c2c656ebf6910d1aca1070e74f7d8d70fd.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/classes-07763e5c2206d3fc639e37b8436512107ae6169e.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b92002cb2f0e11a226ac5bac6dff1dc2a9d0b774">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/classes-ae9ab1547afd59d4e5dbe88c1de1f6a763824c80.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/com.github.traex.rippleeffect/library/1.3/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ee17feb34ce104bc17d1a1e64346d7f779ebb066">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/classes-5e4a2f8b2015d4604138dfc14a89d35d1970fbc6.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="325788a04b436a0bccbc5b4c54cf0f12ebdcbd2d">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/classes-5dc9f95247b061dabed40ad24679c316c4c4cbd9.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2a7e47da654546f9457deb6132364f1bf33a1857">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/classes-fcde19ed972e844d14ef82ddf5ec7150552085a1.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3c729e6d76a36c5dc27e6a4c4009296f49eaa88a">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/classes-495580297317f41097404d6c029e0dbfe106f022.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/classes-2848d560ca94ec152085048a3a9c92179b2d40d5.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/uk.co.chrisjenx/calligraphy/2.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e653e15e62e8a59ddd76cc7f827bf8bce38ae7bb">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/classes-19921f6133b054f027617b29ebdcb643dffee930.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="993834cb17d07d51b92db89d2c330243592ebf77">
+        <dex dex="/Users/rahul/Desktop/MIEON-master/app/build/intermediates/pre-dexed/debug/classes-d88c943b7067aad262f9983a0b26604cf840a5e1.jar" />
+    </item>
+    <item
+        jar="/Users/rahul/Desktop/MIEON/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="041d93cf0533591c29d1d7263b2fa114dbfb20bd">
+        <dex dex="/Users/rahul/Desktop/MIEON/app/build/intermediates/pre-dexed/debug/classes-4d3994ed24ecf170500dad581d6e6c330f82b87d.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolBar"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="#8b3c76"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:id="@+id/toolbarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            fontFamily="fonts/OpenSans-CondBold.ttf"
+            tools:ignore="MissingPrefix"
+            android:text="DUMMY SCREEN "
+            />
+    </RelativeLayout>
+
+
+
+</android.support.v7.widget.Toolbar>

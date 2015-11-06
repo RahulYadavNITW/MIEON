@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">MIEON</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="subtitle">Welcome to Meion, your one stop \n marketplace</string>
+    <string name="title_activity_mobile_verification">MobileVerification</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_options">Options</string>
+    <string name="choose_city">CHOOSE CITY</string>
+    <string name="title_activity_profile">Profile</string>
+
+
+    <string-array name="home_array">
+        <item>HAIR STYLISTS</item>
+        <item>CARPENTERS</item>
+        <item>SALON SERVICES</item>
+        <item>TAILORS</item>
+        <item>PLUMBERS</item>
+        <item>ELECTRICIANS</item>
+        <item>DOCTORS</item>
+        <item>DENTISTS</item>
+        <item>COMPUTER REPAIR</item>
+        <item>LAUNDRY</item>
+        <item>COOK</item>
+    </string-array>
+    <string-array name="services_array">
+        <item>HAIR WASH</item>
+        <item>OIL MASSAGE</item>
+        <item>TRIMMING</item>
+        <item>HAIR CUT</item>
+        <item>PEDICURE</item>
+        <item>FACE MASSAGE</item>
+        <item>BODY MASSAGE</item>
+        <item>PHSIOTHERAPY</item>
+    </string-array>
+</resources>

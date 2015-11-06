@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="140dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/reviewdetails">
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/profileimage"
+            android:background="@drawable/girl_icon"
+            android:layout_marginTop="22dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/reviewerName"
+            android:text="Olivia Brown"
+            fontPath="fonts/OpenSans-Semibold.ttf"
+            android:textSize="16sp"
+            android:textColor="#666666"
+            android:layout_marginTop="24dp"
+            android:layout_toRightOf="@+id/profileimage"
+            android:layout_marginLeft="20dp"
+            tools:ignore="MissingPrefix"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/reviewerDate"
+            android:text="11TH AUG 2015"
+            android:textColor="#666666"
+            android:textSize="13sp"
+            fontPath="fonts/OpenSans-Regular.ttf"
+            android:layout_below="@+id/reviewerName"
+            android:layout_alignStart="@+id/reviewerName"
+            android:layout_marginTop="6dp"
+            tools:ignore="MissingPrefix"
+            />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rating"
+            android:numStars="5"
+            style="@style/RatingBar"
+            android:layout_alignTop="@+id/reviewerName"
+            android:layout_alignParentRight="true"
+
+             />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profileimage"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="18dp"
+            android:textSize="12sp"
+            fontPath="fonts/OpenSans-Regular.ttf"
+            tools:ignore="MissingPrefix"
+            android:text="She is the best hairsylist in this Area. She listens to her clients and she is economical too..."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="#f2f2f2"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,186 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.thenewboston.mieon.Options">
+
+    <include layout="@layout/toolbar_options"
+    android:id="@+id/toolBar"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolBar"
+        android:layout_above="@+id/nextButton">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="36dp">
+            <TextView
+                android:layout_marginTop="34dp"
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/titleMessage"
+                android:textColor="#333333"
+                android:layout_centerHorizontal="true"
+                fontFamily="fonts/OpenSans-Regular.ttf"
+                tools:ignore="MissingPrefix"
+                android:text="Please provide us some options to\n       give you the best provider"/>
+            <EditText
+                android:id="@+id/chooseCity_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/choose_city"
+                android:layout_marginTop="34dp"
+                android:spinnerMode="dropdown"
+                android:textSize="16sp"
+                android:drawableEnd="@drawable/icon_arrow_down"
+                android:layout_below="@id/titleMessage"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:inputType="none"
+                android:cursorVisible="false"
+                android:textColorHint="#999999"
+                fontFamily="fonts/OpenSans-Regular.ttf"
+                tools:ignore="MissingPrefix"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/chooseCity_spinner"
+                android:id="@+id/servicetype"
+                android:text="SERVICE TYPE"
+                android:textSize="16sp"
+                android:layout_marginTop="34dp"
+                fontFamily="fonts/OpenSans-Regular.ttf"
+                tools:ignore="MissingPrefix"
+                />
+            <RelativeLayout
+                android:id="@+id/layout_servicetype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/servicetype"
+                android:layout_below="@+id/servicetype"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true">
+                <RelativeLayout
+                    android:id="@+id/leftsquare"
+                    android:layout_width="116dp"
+                    android:layout_height="124dp"
+                    android:background="@drawable/big_sqaure"
+                    android:layout_marginRight="16dp">
+                    <ImageView
+                        android:id="@+id/storeimage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/icon_shop_selected"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="In Store"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="22dp"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="#999999"
+                        android:textSize="13sp"
+                        fontFamily="fonts/OpenSans-Light.ttf"
+                        tools:ignore="MissingPrefix"/>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/rightsqaure"
+                    android:layout_marginLeft="16dp"
+                    android:layout_toRightOf="@+id/leftsquare"
+                    android:layout_width="116dp"
+                    android:layout_height="124dp"
+                    android:background="@drawable/big_sqaure">
+                    <ImageView
+                        android:id="@+id/homeimage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/icon_home_selected"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="My Home"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="22dp"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="#999999"
+                        android:textSize="13sp"
+                        fontFamily="fonts/OpenSans-Light.ttf"
+                        tools:ignore="MissingPrefix"
+                        />
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout_servicetype"
+                android:layout_marginTop="38dp"
+                android:id="@+id/layout_chooseDate"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                >
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/chooseDate"
+                        android:hint="CHOOSE DATE"
+                        android:textColorHint="#999999"
+                        fontFamily="fonts/OpenSans-Regular.ttf"
+                        tools:ignore="MissingPrefix"
+                        android:textSize="16sp"
+                        android:drawableEnd="@drawable/icon_arrow_down"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:inputType="none"
+                        android:cursorVisible="false"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout_chooseDate"
+                android:id="@+id/timetext"
+                android:text="TIME (HRS)"
+                android:layout_marginTop="34dp"
+                android:textColor="#999999"
+                fontFamily="fonts/OpenSans-Regular.ttf"
+                tools:ignore="MissingPrefix"
+                android:textSize="16sp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:inputType="none"
+                />
+            <TextView
+                android:layout_width="378dp"
+                android:layout_height="3dp"
+                android:background="#964f83"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/timetext"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="20dp"
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+   <Button
+       android:id="@+id/nextButton"
+       android:layout_width="match_parent"
+       android:layout_height="58dp"
+       android:background="#8b3c76"
+       android:text="NEXT"
+       android:textColor="#ffffff"
+       android:textStyle="bold"
+       android:layout_alignParentBottom="true"
+       android:textSize="18sp"
+       fontFamily="fonts/OpenSans-CondBold.ttf"
+       tools:ignore="MissingPrefix"/>
+
+</RelativeLayout>

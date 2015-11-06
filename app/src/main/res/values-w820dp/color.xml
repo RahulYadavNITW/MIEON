@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary_dark">#145B70</color>
+    <color name="color_primary">#2298BA</color>
+    <color name="mdtp_accent_color">#7ac1d5</color>
+    <color name="mdtp_accent_color_dark">#7ac1d5</color>
+    <color name="grey_line">#8E8E8D</color>
+    <color name="orange_text">#EF9A4E</color>
+    <color name="grey_text">#666666</color>
+    <color name="grey_date_text">#777777</color>
+    <color name="grey_divider">#d1c3c3c3</color>
+    <color name="date_time_color">#007AFF</color>
+    <color name="button_color">#2298BA</color>
+    <color name="hint_color">#d2d2d2</color>
+    <color name="black_semi_transparent">#B2000000</color>
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="94dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="142dp"
+        android:layout_below="@+id/toolbar_profile"
+        android:id="@+id/profiledetails">
+        <ImageView
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:id="@+id/profileimage"
+            android:background="@drawable/girl_icon"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ProfileName"
+            android:text="Olivia Brown"
+            fontPath="fonts/OpenSans-Semibold.ttf"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/profileimage"
+            android:layout_marginLeft="20dp"
+            tools:ignore="MissingPrefix"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/address"
+            android:text="#123, West Avenue, NY"
+            android:textSize="9sp"
+            android:textColor="#7a7a7a"
+            fontPath="fonts/OpenSans-Regular.ttf"
+            android:layout_below="@+id/ProfileName"
+            android:layout_alignStart="@+id/ProfileName"
+            android:layout_marginTop="6dp"
+            tools:ignore="MissingPrefix"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/storeavailable"
+            android:layout_alignStart="@+id/address"
+            android:layout_below="@+id/address"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/icon_shop"
+            />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/homeavailable"
+            android:layout_toRightOf="@+id/storeavailable"
+            android:layout_marginLeft="6dp"
+            android:layout_below="@+id/address"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/icon_home"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Favorite"
+            android:layout_marginRight="3dp"
+            android:visibility="visible"
+            android:background="@drawable/icon_star_selected"
+            android:layout_alignBottom="@+id/rating"
+            android:layout_toStartOf="@+id/rating" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rating"
+            android:text="4.5"
+            android:layout_marginRight="17dp"
+            android:visibility="visible"
+            android:layout_above="@+id/go"
+            android:layout_toStartOf="@+id/go"
+            android:layout_marginEnd="31dp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/go"
+            android:layout_marginRight="14dp"
+            android:layout_centerVertical="true"
+            android:visibility="visible"
+            android:background="@drawable/icon_arrow_next"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

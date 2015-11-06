@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="58dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/serviceName"
+        android:text="Hairwash"
+        android:textColor="#666666"
+        android:layout_centerVertical="true"
+        android:textSize="15sp"
+        fontFamily="fonts/OpenSans-Regular.ttf"
+        tools:ignore="MissingPrefix"
+        android:textAllCaps="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/serviceCharge"
+        android:text="$40"
+        android:layout_alignParentRight="true"
+        android:textColor="#666666"
+        android:layout_centerVertical="true"
+        android:textSize="20sp"
+        fontFamily="fonts/OpenSans-CondBold.ttf"
+        tools:ignore="MissingPrefix"
+        />
+
+</RelativeLayout>

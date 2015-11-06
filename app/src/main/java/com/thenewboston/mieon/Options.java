@@ -9,6 +9,11 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import io.apptik.widget.MultiSlider;
 
 import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
@@ -17,6 +22,7 @@ public class Options extends AppCompatActivity {
 
     ActionBar actionBar;
     private Toolbar toolbar;
+    ImageView home_selected, home_deselected,shop_selected,shop_deselcted;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +38,61 @@ public class Options extends AppCompatActivity {
                         .setFontAttrId(R.attr.fontPath)
                         .build()
         );
+
+        final TextView minTime = (TextView) findViewById(R.id.minTime);
+        final TextView maxTime = (TextView) findViewById(R.id.maxTime);
+        MultiSlider multiSlider = (MultiSlider)findViewById(R.id.double_range_slider);
+        minTime.setText(String.valueOf(multiSlider.getThumb(0).getValue()));
+        maxTime.setText(String.valueOf(multiSlider.getThumb(1).getValue()));
+
+        multiSlider.setOnThumbValueChangeListener(new MultiSlider.OnThumbValueChangeListener() {
+            @Override
+            public void onValueChanged(MultiSlider multiSlider, MultiSlider.Thumb thumb, int thumbIndex, int value) {
+                if (thumbIndex == 0) {
+                    minTime.setText(String.valueOf(value));
+                } else {
+                    maxTime.setText(String.valueOf(value));
+                }
+            }
+        });
+
+        home_selected=(ImageView)findViewById(R.id.home_selected);
+        home_deselected=(ImageView)findViewById(R.id.home_deselected);
+        shop_selected=(ImageView)findViewById(R.id.store_selected);
+        shop_deselcted=(ImageView)findViewById(R.id.store_deselected);
+
+        home_deselected.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                shop_deselcted.setVisibility(View.VISIBLE);
+                shop_selected.setVisibility(View.INVISIBLE);
+                home_selected.setVisibility(View.VISIBLE);
+                home_deselected.setVisibility(View.INVISIBLE);
+            }
+        });
+        home_selected.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                home_deselected.setVisibility(View.VISIBLE);
+                home_selected.setVisibility(View.INVISIBLE);
+            }
+        });
+        shop_selected.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                shop_deselcted.setVisibility(View.VISIBLE);
+                shop_selected.setVisibility(View.INVISIBLE);
+            }
+        });
+        shop_deselcted.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                shop_selected.setVisibility(View.VISIBLE);
+                shop_deselcted.setVisibility(View.INVISIBLE);
+                home_selected.setVisibility(View.INVISIBLE);
+                home_deselected.setVisibility(View.VISIBLE);
+            }
+        });
     }
     @Override
     protected void attachBaseContext(Context newBase) {

@@ -1,6 +1,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.thenewboston.mieon.Options">
 
     <include layout="@layout/toolbar_options"
@@ -71,11 +73,19 @@
                     android:background="@drawable/big_sqaure"
                     android:layout_marginRight="16dp">
                     <ImageView
-                        android:id="@+id/storeimage"
+                        android:id="@+id/store_selected"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
+                        android:visibility="invisible"
                         android:background="@drawable/icon_shop_selected"/>
+                    <ImageView
+                        android:id="@+id/store_deselected"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:visibility="visible"
+                        android:background="@drawable/icon_shop_normal"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -97,11 +107,19 @@
                     android:layout_height="124dp"
                     android:background="@drawable/big_sqaure">
                     <ImageView
-                        android:id="@+id/homeimage"
+                        android:id="@+id/home_selected"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
+                        android:visibility="invisible"
                         android:background="@drawable/icon_home_selected"/>
+                    <ImageView
+                        android:id="@+id/home_deselected"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:visibility="visible"
+                        android:background="@drawable/icon_home_normal"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -158,14 +176,43 @@
                 android:focusableInTouchMode="false"
                 android:inputType="none"
                 />
-            <TextView
-                android:layout_width="378dp"
-                android:layout_height="3dp"
-                android:background="#964f83"
-                android:layout_centerHorizontal="true"
+            <!--<TextView-->
+                <!--android:layout_width="378dp"-->
+                <!--android:layout_height="3dp"-->
+                <!--android:background="#964f83"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_below="@+id/timetext"-->
+                <!--android:layout_marginTop="18dp"-->
+                <!--android:layout_marginBottom="20dp"-->
+                <!--/>-->
+            <io.apptik.widget.MultiSlider
+                android:id="@+id/double_range_slider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:track="@drawable/example_scrubber_secondary_holo"
+                app:range1="@drawable/example_scrubber_secondary_holo"
+                app:range1Color="#964f83"
+                app:rangeColor="#8b3c76"
+                app:thumbColor="@android:color/holo_purple"
                 android:layout_below="@+id/timetext"
                 android:layout_marginTop="18dp"
                 android:layout_marginBottom="20dp"
+                app:trackColor="#964f83"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/minTime"
+                android:layout_below="@+id/double_range_slider"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/maxTime"
+                android:layout_toRightOf="@+id/minTime"
+                android:paddingLeft="4dp"
+                android:layout_below="@+id/double_range_slider"
                 />
 
         </RelativeLayout>
